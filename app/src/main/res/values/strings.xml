@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EcoBot</string>
+    <string name="forgot_password">Forget PAssword</string>
+    <string name="login_button">LogIn</string>
+</resources>
