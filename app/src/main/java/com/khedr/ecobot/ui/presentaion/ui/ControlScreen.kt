@@ -96,7 +96,6 @@ class ControlScreen :Screen {
         }
 
         Scaffold(
-
         ) { padding ->
             Box(
                 modifier = Modifier
@@ -247,7 +246,6 @@ class ControlScreen :Screen {
         }
     }
 
-    // Function to fetch the live stream URL
     fun fetchLiveStreamUrl(streamId: String, onResult: (String?) -> Unit) {
         RetrofitClient.api.getLiveStream(
             streamId,streamId

@@ -147,7 +147,7 @@ class MainContent : Screen {
                 val navigator = LocalNavigator.currentOrThrow
                 when (index) {
                     0 -> HomeScreen().Content()
-                    1 -> DetailsScreen().Content()
+                    1 -> DetailsScreen(navigator).Content()
                     2 -> SettingsScreen().Content()
                 }
             }
