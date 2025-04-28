@@ -56,13 +56,14 @@ class DetailsScreen (val navigator: Navigator): Screen {
             TopBarAdvice(onBackClick = { navigator.pop() },
                 title = "Garbage Details ")
             LazyColumn {
-                items(330) {
+                items(3
+                ) {
 
-                    Card(
+                   Card(
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(16.dp),
-                        shape = RoundedCornerShape(12.dp),
+                        shape = RoundedCornerShape(12.dp)
                     ) {
                         Column(
                             modifier = Modifier.padding(16.dp),
